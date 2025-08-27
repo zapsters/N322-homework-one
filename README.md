@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
+# Homework 1 | Assignment
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+9/3/2025
 
-## Get started
+## Purpose
 
-1. Install dependencies
+- Install Node.js, Expo CLI, and Expo Go.
+- Run a React Native app on your own device.
+- Understand the project structure in Expo.
 
-   ```bash
-   npm install
-   ```
+## How to Run
 
-2. Start the app
+Run `expo start` in the project root then scan the QR code with Expo Go or view on a simulated device.
 
-   ```bash
-   npx expo start
-   ```
+## Instructions
 
-In the output, you'll find options to open the app in a
+1. Install Node.js https://nodejs.org
+2. Create a new project
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+```
+# Create new Expo project
+npx create-expo-app hello-world
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+# Move into project folder
+cd hello-world
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+# Start Expo development server
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+3. Open the app in Expo GoLinks to an external site. on your phone.
 
-## Learn more
+4. Replace the default text with your own custom message.
 
-To learn more about developing your project with Expo, look at the following resources:
+5. Change the background color of the main view.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+<u> How to submit your homework </u>
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Upload this project to Github
+1. Make sure your repo is public.
+1. Make sure your readme.md file has the assignment instructions and how to run your application.
+1. Make sure you have a .gitignore file that removes the node_modules folder
+1. Make sure there are instructions on how to set up your project after downloading.
+1. Then submit your Github link to this assignment.
+1. Add a screenshot of your app running in Expo Go.
